@@ -1,0 +1,15 @@
+// MainWindow.xaml
+<Window x:Class="copilot.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Copilot Main Window"
+        Height="450" Width="800">
+    <Grid>
+        <StatusBar>
+            <TextBlock Text="Status: Ready" />
+        </StatusBar>
+        <TextBox Name="TranscriptBox" />
+        <TextBox Name="LogBox" />
+        <Button Name="PushToTalkButton" Content="Push to Talk" />
+    </Grid>
+</Window>
